@@ -2,5 +2,16 @@
   padding: 0;
   margin: 0;
   box-sizing: 0;
-  background-color: pink;
+}
+
+html,
+body {
+  font-size: 13px;
+  font-family: 'Manrope', sans-serif;
+}
+
+main {
+  background-color: red;
+  justify-content: center;
+  align-items: center;
 }
