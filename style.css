@@ -71,11 +71,10 @@ main {
   margin: 0 0 0 1rem;
 }
 
+.article-column img {
+  background-color: blue;
+}
+
 .share-btn {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  align-self: center;
-  border: none;
-  margin-left: 10rem;
+  background-color: blue;
 }
