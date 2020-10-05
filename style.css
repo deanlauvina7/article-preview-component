@@ -54,6 +54,9 @@ main {
 
 .container-author {
   display: flex;
+  flex-direction: row;
+  height: 7rem;
+  width: 20rem;
 }
 
 .container-author img {
@@ -71,10 +74,27 @@ main {
   margin: 0 0 0 1rem;
 }
 
-.article-column img {
-  background-color: blue;
+.share-btn {
+  background-color: rgba(169, 169, 169, 0.384);
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: -2rem 0 0 20rem;
 }
 
-.share-btn {
-  background-color: blue;
+.share-btn .fa-share {
+  font-size: 20px;
+  margin-top: 0.75rem;
+  color: gray;
+}
+
+.share-btn:hover {
+  background-color: hsl(217, 19%, 35%);
+  transition: 0.2s;
+}
+
+.share-btn .fa-share:hover {
+  color: white;
 }
