@@ -85,16 +85,19 @@ main {
 }
 
 .share-btn .fa-share {
-  font-size: 20px;
   margin-top: 0.75rem;
   color: gray;
+  font-size: 20px;
 }
 
-.share-btn:hover {
+.share-btn:hover,
+.fa-share:hover {
   background-color: hsl(217, 19%, 35%);
-  transition: 0.2s;
-}
-
-.share-btn .fa-share:hover {
+  transition: 0.2s ease;
   color: white;
 }
+
+/* MEDIA QUERIES */
+
+/* MOBILE DEVICES */
+@media (max-width: 375px) {}
